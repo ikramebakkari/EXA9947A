@@ -42,7 +42,7 @@ public class App {
         List<Pet> petByStatus = petData.findPetByStatus(status);
 		
 		for (Pet pet : petByStatus)
-		{
+		{ 
 		  System.out.println(pet.getName());
 		}
 
